@@ -1,7 +1,7 @@
 ### C++ Module for Console Tags
 
 ```c++
-import std;
+import std; // for std::cout
 import LogTags;
 
 int main()
