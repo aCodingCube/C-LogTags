@@ -6,7 +6,7 @@ export module LogTags;
 // modules
 import std;
 
-namespace cLog
+namespace cslTag
 {
 	export enum Color
 	{
@@ -14,7 +14,7 @@ namespace cLog
 		DARK_GRAY = 90,LIGHT_RED,LIGHT_GREEN,LIGHT_YELLOW,LIGHT_BLUE,LIGHT_MAGENTA,LIGHT_CYAN,WHITE
 	};
 
-	export static class Logger
+	export static class Tags
 	{
 	private:
 		// private member variables
