@@ -1,9 +1,17 @@
-<h1>C++ Module for logging Tags</h1> <br>
-Usage: <br>
-````text
-```cpp
-cLog::LogTags logger = {}; <br>
-logger.createNewTag(cLog::RED,"ERROR"); // (cLog::Color,tagName) <br>
-logger.tag("ERROR"); // [ERROR] <br>
+```c++
+import std;
+import LogTags;
+
+int main()
+{
+	cLog::Logger logger = {};
+
+	logger.createNewTag(cLog::LIGHT_YELLOW, "WARNING");
+
+	logger.tag("WARNING");
+
+	std::cout << "Wrong data type!" << std::endl; // ["WARNING"] Woring data type1
+
+	return 0;
+}
 ```
-````
