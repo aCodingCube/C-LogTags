@@ -1,3 +1,5 @@
+### C++ Module for Console Tags
+
 ```c++
 import std;
 import LogTags;
@@ -10,7 +12,7 @@ int main()
 
 	logger.tag("WARNING");
 
-	std::cout << "Wrong data type!" << std::endl; // ["WARNING"] Woring data type1
+	std::cout << "Wrong data type!" << std::endl; // ["WARNING"] Woring data type!
 
 	return 0;
 }
